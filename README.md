@@ -1,5 +1,7 @@
 # Coding Agent MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Sukarth/coding-agent-mcp)](https://smithery.ai/server/@Sukarth/coding-agent-mcp)
+
 A comprehensive Model Context Protocol (MCP) server that provides coding agent capabilities including file operations, terminal commands, search functionality, and utility operations.
 
 ## Features
@@ -45,6 +47,14 @@ A comprehensive Model Context Protocol (MCP) server that provides coding agent c
 ### Requirements
 - Node.js >= v18.0.0
 - Cursor, Windsurf, Claude Desktop or another MCP Client
+
+### Installing via Smithery
+
+To install Coding Agent MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Sukarth/coding-agent-mcp):
+
+```bash
+npx -y @smithery/cli install @Sukarth/coding-agent-mcp --client claude
+```
 
 <details>
 <summary><b>Installing via Smithery</b></summary>
@@ -1176,3 +1186,4 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 <br>
 
 **Made with ❤️ by [Sukarth Acharya](https://github.com/sukarth)**
+
