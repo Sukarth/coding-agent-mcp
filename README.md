@@ -54,7 +54,7 @@ To install Coding Agent MCP Server for any client automatically via [Smithery](h
 ```bash
 npx -y @smithery/cli@latest install coding-agent-mcp --client <CLIENT_NAME> --key <YOUR_SMITHERY_KEY>
 ```
-You can find your Smithery key in the [Smithery.ai webpage](https://smithery.ai/server/coding-agent-mcp).
+You can find your Smithery key in the [Smithery.ai webpage](https://smithery.ai/server/@Sukarth/coding-agent-mcp).
 </details>
 
 <details>
