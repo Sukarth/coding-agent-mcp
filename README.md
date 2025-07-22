@@ -52,7 +52,7 @@ A comprehensive Model Context Protocol (MCP) server that provides coding agent c
 To install Coding Agent MCP Server for any client automatically via [Smithery](https://smithery.ai):
 
 ```bash
-npx -y @smithery/cli@latest install coding-agent-mcp --client <CLIENT_NAME> --key <YOUR_SMITHERY_KEY>
+npx -y @smithery/cli@latest install @Sukarth/coding-agent-mcp --client <CLIENT_NAME> --key <YOUR_SMITHERY_KEY>
 ```
 You can find your Smithery key in the [Smithery.ai webpage](https://smithery.ai/server/@Sukarth/coding-agent-mcp).
 </details>
@@ -667,7 +667,7 @@ command = "npx"
 For development or custom builds:
 
 ```bash
-git clone https://github.com/sukarth-acharya/coding-agent-mcp.git
+git clone https://github.com/sukarth/coding-agent-mcp.git
 cd coding-agent-mcp
 npm install
 npm run build
@@ -783,7 +783,7 @@ The `edit_file` tool supports multiple editing approaches:
 
 ### Setup
 ```bash
-git clone https://github.com/sukarth-acharya/coding-agent-mcp.git
+git clone https://github.com/sukarth/coding-agent-mcp.git
 cd coding-agent-mcp
 npm install
 ```
