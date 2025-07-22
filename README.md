@@ -1,5 +1,7 @@
 # Coding Agent MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@Sukarth/coding-agent-mcp)](https://smithery.ai/server/@Sukarth/coding-agent-mcp)
+
 A comprehensive Model Context Protocol (MCP) server that provides coding agent capabilities including file operations, terminal commands, search functionality, and utility operations.
 
 ## Features
@@ -1176,3 +1178,4 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 <br>
 
 **Made with ❤️ by [Sukarth Acharya](https://github.com/sukarth)**
+
