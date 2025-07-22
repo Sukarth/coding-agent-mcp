@@ -1,6 +1,14 @@
 # Coding Agent MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@Sukarth/coding-agent-mcp)](https://smithery.ai/server/@Sukarth/coding-agent-mcp)
+<p align="center">
+  <a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22Coding%20Agent%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22coding-agent-mcp%22%5D%7D">
+    <img src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat&label=Install%20Coding%20Agent%20MCP&color=0098FF" alt="Install in VS Code">
+  </a>
+  &nbsp;
+  <a href="https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%7B%22name%22%3A%22Coding%20Agent%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22coding-agent-mcp%22%5D%7D">
+    <img src="https://img.shields.io/badge/VS_Code_Insiders-VS_Code_Insiders?style=flat&label=Install%20Coding%20Agent%20MCP&color=24bfa5" alt="Install in VS Code Insiders">
+  </a>
+</p>
 
 A comprehensive Model Context Protocol (MCP) server that provides coding agent capabilities including file operations, terminal commands, search functionality, and utility operations.
 
@@ -47,17 +55,6 @@ A comprehensive Model Context Protocol (MCP) server that provides coding agent c
 ### Requirements
 - Node.js >= v18.0.0
 - Cursor, Windsurf, Claude Desktop or another MCP Client
-
-<details>
-<summary><b>Installing via Smithery</b></summary>
-
-To install Coding Agent MCP Server for any client automatically via [Smithery](https://smithery.ai):
-
-```bash
-npx -y @smithery/cli@latest install @Sukarth/coding-agent-mcp --client <CLIENT_NAME> --key <YOUR_SMITHERY_KEY>
-```
-You can find your Smithery key in the [Smithery.ai webpage](https://smithery.ai/server/@Sukarth/coding-agent-mcp).
-</details>
 
 <details>
 <summary><b>Install in Cursor</b></summary>
@@ -150,6 +147,18 @@ For more details, visit the [Trae documentation](https://docs.trae.ai/ide/model-
 
 <details>
 <summary><b>Install in VS Code</b></summary>
+
+<br>
+
+<p align="center">
+  <a href="https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%7B%22name%22%3A%22Coding%20Agent%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22coding-agent-mcp%22%5D%7D">
+    <img src="https://img.shields.io/badge/VS_Code-VS_Code?style=flat&label=Install%20Coding%20Agent%20MCP&color=0098FF" alt="Install in VS Code">
+  </a>
+  &nbsp;
+  <a href="https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%7B%22name%22%3A%22Coding%20Agent%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22coding-agent-mcp%22%5D%7D">
+    <img src="https://img.shields.io/badge/VS_Code_Insiders-VS_Code_Insiders?style=flat&label=Install%20Coding%20Agent%20MCP&color=24bfa5" alt="Install in VS Code Insiders">
+  </a>
+</p>
 
 Add this to your VS Code MCP config file. See [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) for more info.
 
