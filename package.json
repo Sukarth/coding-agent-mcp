@@ -1,6 +1,6 @@
 {
   "name": "coding-agent-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive MCP server providing coding agent capabilities including file operations, terminal commands, search, and more",
   "main": "dist/index.js",
   "bin": {
