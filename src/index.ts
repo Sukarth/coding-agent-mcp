@@ -31,7 +31,7 @@ class CodingAgentMCPServer {
     this.server = new Server(
       {
         name: 'coding-agent-mcp',
-        version: '1.0.0',
+        version: '1.0.1',
       }
     );
 
@@ -65,15 +65,15 @@ class CodingAgentMCPServer {
         if (this.fileOps.hasTools(name)) {
           return await this.fileOps.handleTool(name, args);
         }
-        
+
         if (this.terminalOps.hasTools(name)) {
           return await this.terminalOps.handleTool(name, args);
         }
-        
+
         if (this.searchOps.hasTools(name)) {
           return await this.searchOps.handleTool(name, args);
         }
-        
+
         if (this.utilityOps.hasTools(name)) {
           return await this.utilityOps.handleTool(name, args);
         }
@@ -103,7 +103,7 @@ class CodingAgentMCPServer {
 // Handle CLI arguments
 if (process.argv.includes('--help') || process.argv.includes('-h')) {
   console.log(`
-Coding Agent MCP Server v1.0.0
+Coding Agent MCP Server v1.0.1
 A comprehensive MCP server providing coding agent capabilities
 
 Usage: coding-agent-mcp [options]
@@ -124,7 +124,7 @@ For more information, visit: https://github.com/sukarth/coding-agent-mcp
 }
 
 if (process.argv.includes('--version') || process.argv.includes('-v')) {
-  console.log('1.0.0');
+  console.log('1.0.1');
   process.exit(0);
 }
 

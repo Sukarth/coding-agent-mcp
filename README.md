@@ -1176,12 +1176,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
-### v1.0.0 - Latest
-- ✅ **27 tools** across 4 categories
-- ✅ **48 comprehensive tests** (100% pass rate)
-- ✅ **Cross-platform support** (Windows, macOS, Linux)
-- ✅ **Production-ready** with full error handling
-- ✅ **TypeScript** implementation with strict typing
+### v1.0.1 - Latest
+- Minor internal improvements and maintenance updates
+- Updated documentation and usage examples
 
 ---
 <br>
