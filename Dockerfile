@@ -5,12 +5,13 @@ WORKDIR /app
 
 # Copy package files and install dependencies
 COPY package.json package-lock.json tsconfig.json ./
+RUN npm ci --ignore-scripts
 
 # Copy source code
 COPY src ./src
 
 # Build the TypeScript project
-RUN npm install --ignore-scripts && npm run build
+RUN npm run build
 
 # Default command to start the MCP server
 CMD ["node", "dist/index.js"]
